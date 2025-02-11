@@ -1,4 +1,4 @@
-# utils-path-replace
+# utils_path-replace
 (Українська версія нижче / Ukrainian version below)
 
 ## English
