@@ -1,5 +1,5 @@
 {
-    "name": "ra7/utils-path-replace",
+    "name": "ra7/utils_path-replace",
     "description": "A utility for converting paths using the greater than sign as a directory separator to a valid path according to the directory separator for the current operating system.",
     "type": "library",
     "keywords": [
@@ -14,7 +14,7 @@
         "ra7",
         "Ruslan_A7"
     ],
-    "homepage": "https://dev.iuid.cc/projects/utils-path-replace",
+    "homepage": "https://dev.iuid.cc/projects/utils/path-replace",
     "license": "proprietary",
     "_comment": [
         "License: RA7 Open Free License"
@@ -26,9 +26,6 @@
             "role": "Founder, Developer"
         }
     ],
-    "support": {
-        "source": "https://github.com/Ruslan-A7/utils-path-replace"
-    },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
@@ -37,7 +34,7 @@
             "src/pathReplace.php"
         ],
         "psr-4": {
-            "RA7\\Helpers\\": "src/"
+            "RA7\\Utils\\": "src/"
         }
     },
     "require": {
